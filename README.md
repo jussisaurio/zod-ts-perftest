@@ -4,4 +4,4 @@
 
 `npm run build-bench` to run `tsc` with `extendedDiagnostics`
 
-Modify zod's typings in `node_modules/zod` to test stuff :D
+Either modify zod's typings in `node_modules/zod` or `npm link` a local copy and do modifications there. Remember to build `zod` in between!
